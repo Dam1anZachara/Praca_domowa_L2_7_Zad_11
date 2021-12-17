@@ -8,7 +8,7 @@ namespace L2_7_Zad_11
         {
             Console.WriteLine("Program zmieni ocenę ucznia na jej opis.");
             Console.Write("Podaj ocenę od 1 do 6: ");
-            Int32.TryParse(Console.ReadLine(), out int rating);
+            byte.TryParse(Console.ReadLine(), out byte rating);
 
             switch (rating)
             {
